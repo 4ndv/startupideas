@@ -35,9 +35,10 @@ $(document).ready(function(){
   }
 
   var social = function(){
-    var text = "Моя идея для стартапа: " + $("#part-one").text() + " " + $("#part-two").text() + ". Получи свою на ";
-    $("#tweet").attr("href", "https://twitter.com/home?status=" + text + "http://git.io/vqU3L");
-    $("#vkshare").attr("href", "https://vk.com/share.php?url=http://4ndv.github.io/startupideas&description=" + text + "http://4ndv.github.io/startupideas")
+    var rand = Math.floor(Math.random()*10000000);
+    var text = "Моя идея для стартапа: " + $("#part-one").text() + " " + $("#part-two").text() + ".";
+    $("#tweet").attr("href", "https://twitter.com/home?status=" + text + " Получи свою на http://git.io/vqU3L");
+    $("#vkshare").attr("href", "https://vk.com/share.php?url=http://4ndv.github.io/startupideas/?" + rand + "&title=Генератор идей стартапов. " + text + " Получи свою здесь!" + "&description=Генератор идей стартапов v3.0")
   }
 
   $("#generate").click(generate);
