@@ -11,16 +11,14 @@
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="awesomeness.js"></script>
   <style>
-    .inner {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
     body {
       margin: 0 !important;
       padding: 0 !important;
+    }
+
+    .inner {
+      top: 40% !important;
+      position: relative;
     }
 
     #part-one, #part-two, #hello {
@@ -35,7 +33,7 @@
     }
   </style>
 </head>
-<body class="ui inverted center aligned segment">
+<body class="ui inverted center aligned segment outer">
   <div class="inner">
     <h2><span id="hello">Нажми на кнопку, получишь результат</span><span id="part-one"></span><span id="part-two"></span></h2>
     <a class="ui inverted orange big button" id="generate">Сгенерировать идею</a>
