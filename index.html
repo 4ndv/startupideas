@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Генератор идей стартапов v3.0</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.min.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="awesomeness.js"></script>
+  <style>
+    .inner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    #part-one, #part-two, #hello {
+      cursor: pointer;
+      display: inline-block;
+      padding: 3px;
+    }
+
+    #part-one:hover, #part-two:hover {
+      background-color: #000;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body class="ui inverted center aligned segment">
+  <div class="inner">
+    <h2><span id="hello">Нажми на кнопку, получишь результат</span><span id="part-one"></span><span id="part-two"></span></h2>
+    <a class="ui inverted orange big button" id="generate">Сгенерировать идею</a>
+    <br />
+    <br />
+    <a href="http://4ndv.github.io" class="ui black button tiny"><i class="caret left icon"></i> Андрей Викторов</a>
+    <a href="https://twitter.com/home?status=Генератор идей для стартапов: http://4ndv.github.io/startupideas" class="ui teal button tiny" id="tweet"><i class="twitter icon"></i> Твитнуть</a>
+    <a href="https://vk.com/share.php?url=http://4ndv.github.io/startupideas&description=Генератор идей для стартапов: http;//4ndv.github.io/startupideas" class="ui blue button tiny" id="vkshare"><i class="vk icon"></i> ВКонтактнуть</a>
+    <a href="https://github.com/4ndv/startupideas" class="ui grey button tiny"><i class="github alternate icon"></i> Дополнить</a>
+  </div>
+</body>
+</html>
