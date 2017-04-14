@@ -256,6 +256,7 @@ var variants = {
           'от JetBrains',
           'от Microsoft',
           'от Adobe',
+          'от Дениса Попова',
           'от Xiaomi']
 };
 
