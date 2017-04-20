@@ -157,7 +157,12 @@ var variants = {
           'Генератор статических сайтов',
           'Генератор вопросов на ЕГЭ',
           'Телефон Nokia',
-          'Яндекс'],
+          'Яндекс',
+          'Minecraft',
+          'PlayStation 4',
+          'Overwatch',
+          'Steam'
+        ],
   with: [ 'с геолокацией',
           'с интергацией с твиттером',
           'с интеграцией с социальными сетями',
@@ -257,7 +262,10 @@ var variants = {
           'от Microsoft',
           'от Adobe',
           'от Дениса Попова',
-          'от Xiaomi']
+          'от Xiaomi',
+          'от Mojang',
+          'от Valve'
+        ]
 };
 
 $(document).ready(function(){
